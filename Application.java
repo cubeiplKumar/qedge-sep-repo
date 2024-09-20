@@ -5,8 +5,30 @@ public class SimpleMethodExample {
         int sum = a + b;
         return sum;
     }
+feature202
 #feature202 changes by ethan in oct 2023
 public class RectangleAreaCalculator {
+
+#feature201 changes by vivek for the module reports on oct2023
+public void accessPrivateMembers() {
+        // Accessing the private field
+        System.out.println("Private Field: " + privateField);
+
+        // Calling the private method
+        privateMethod();
+    }
+
+    // Main method to run the program
+    public static void main(String[] args) {
+        // Creating an object of MyClass
+        MyClass myObject = new MyClass();
+
+        // Accessing private members through a public method
+        myObject.accessPrivateMembers();
+    }
+}
+#end of feature201 changes
+
 
     // User-defined method to calculate the area of a rectangle
     public static double calculateRectangleArea(double length, double width) {
