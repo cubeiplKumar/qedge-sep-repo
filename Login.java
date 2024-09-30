@@ -19,3 +19,11 @@ class Main {
     System.out.println("Sum is: " + result);
   }
 }
+
+#WEBHOOK JOB DEMO
+  
+public static void sampleMethod(int a, int b) throws ArithmeticException{
+        System.out.println("Hello, this is sample method");
+        int c = a/b; //  int c = 4/2 which gets calculated as 2 
+        System.out.println("c:"+c); // c: 2
+   }
